@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topsail Beach</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation Menu -->
+    <div class="grid-container">
+        <!-- Top Navigation Menu -->
+        <div class="topnav" id="myTopnav">
+            <div class="logo">
+                <img src="Images/logo-no-background.png" alt="Logo" style="height: 70px;">
+            </div>
+            <div class="menu">
+                <a href="#home" class="active">TSB</a>
+                <!-- Navigation links -->
+                <div id="myLinks">
+                    <a href="#locations">Locations</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">visitors</a>
+                    <a href="#about">About</a>
+                </div>
+                <!-- "Hamburger menu" icon -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>     
+    <!-- Main Content -->
+    <div class="content">
+        <div class="WaveLogos">
+            <img src="Images/topsail-beach-waves-black.png" alt="Logo 1" style="height: 100px;">
+            <h2>Welcome to Topsail Beach</h2>
+            <img src="Images/topsail-beach-waves-black.png" alt="Logo 2" style="height: 100px;">
+        </div>
+        <section class="grid-section">
+        <p>Topsail Beach, nestled along the coast of North Carolina, is a picturesque destination that embodies the essence of a tranquil beach getaway. With its pristine white sandy shores stretching alongside the crystal-clear waters of the Atlantic Ocean, it offers visitors a serene escape from the hustle and bustle of everyday life. Known for its charming maritime forests, Topsail Beach provides a perfect blend of natural beauty and coastal charm. Its laid-back atmosphere and a myriad of recreational activities such as swimming, sunbathing, surfing, and fishing make it an ideal destination for both families and solo travelers alike. Additionally, the area boasts a rich history, with remnants of old pirate tales adding a touch of mystery to its allure. Whether one seeks relaxation under the warm sun, an adventure on the rolling waves, or a glimpse into the region's fascinating past, Topsail Beach promises an unforgettable coastal experience.</p>
+        <img src="Images/Sunglasses.jpg" alt="Sample Image" style="width:100%;">
+        <h2>Here are some things our beach offers!</h2>
+        <ul>
+            <li>Pristine Beaches: Topsail Beach boasts some of the most pristine and picturesque beaches on the East Coast. The soft, white sand and clear blue waters provide the perfect backdrop for a relaxing day by the ocean.</li>
+            <li>Serene Atmosphere: This coastal gem is known for its peaceful and serene atmosphere, making it an ideal destination for those seeking a tranquil retreat away from the hustle and bustle of everyday life.</li>
+            <li>Natural Beauty: Nature enthusiasts will appreciate the area's natural beauty, including the stunning sunrises and sunsets that paint the sky with vibrant hues. The marshes, dunes, and maritime forests also contribute to the breathtaking scenery.</li>
+            <li>Water Activities: Topsail Beach offers a plethora of water activities for visitors to enjoy, such as swimming, fishing, kayaking, and surfing. Whether you're a seasoned water sports enthusiast or a beginner looking to try something new, there's something for everyone to enjoy.</li>
+            <li>Sea Turtle Sanctuary: Topsail Beach is known for its efforts in sea turtle conservation. The Karen Beasley Sea Turtle Rescue and Rehabilitation Center is dedicated to protecting and rehabilitating injured sea turtles, providing visitors with an educational and heartwarming experience.</li>
+        </ul>
+        <img src="Images/ChildrenBeach.jpg" alt="Sample Image" style="width:100%;">
+        <p>This is a beautiful beach with lots of sunshine and clear blue waters. Enjoy your vacation with us!</p>
+        </section>
+    </div>
+    <!-- Footer -->
+    <div class="bottomnav">
+        <img src="Images/TopSailBeachUmbrella.png" alt="Logo" style="height: 35px;">
+        <a href="#contact" class="contact-button">Contact us!</a>
+        <img src="Images/TopSailBeachUmbrella.png" alt="Logo" style="height: 35px;">
+        <div class="footer-info">
+            <p>© Copyright 2023. All Rights Reserved.</p>
+            <p>S. Anderson Blvd., Topsail Beach, NC 28445</p>
+        </div>
+    </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                    x.style.width = "100%";
+                }
+            }
+        </script>
+    </body>
+</html>
